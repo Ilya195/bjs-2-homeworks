@@ -4,7 +4,7 @@ function compareArrays(arr1, arr2) {
     result = arr1.every((element, index) => {
       return element === arr2[index]} );
   }
-  return result; // boolean
+  return result; 
 }
 
 function advancedFilter(arr) {
@@ -12,5 +12,5 @@ function advancedFilter(arr) {
     if (element > 0 && element % 3 === 0) {
       return element }
     }).map(item => item*10);
-  return resultArr; // array
+  return resultArr; 
 }
